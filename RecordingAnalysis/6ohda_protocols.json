@@ -1,0 +1,42 @@
+{
+    "Step120_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.12, "duration": 2000.0, "totduration": 4800.0 },
+            "holding": { "amp": 0.067, "delay": 0, "duration": 4800.0, "totduration": 4800.0 }
+        }
+    },
+    "Step180_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.18, "duration": 2000.0, "totduration": 4800.0 },
+            "holding": { "amp": 0.067, "delay": 0, "duration": 4800.0, "totduration": 4800.0 }
+        }
+    },
+    "Step240_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.24, "duration": 2000.0, "totduration": 4800.0 },
+            "holding": { "amp": 0.067, "delay": 0, "duration": 4800.0, "totduration": 4800.0 }
+        }
+    },
+    "SagStep-200_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.2, "duration": 2000.0, "totduration": 4800.0 },
+            "holding": { "amp": 0.0, "delay": 0, "duration": 4800.0, "totduration": 4800.0 }
+        }
+    },
+    "Pulse": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -1.0, "duration": 0.5, "totduration": 4800 }
+        }
+    },
+    "Step_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.01, "duration": 100, "totduration": 4800 }
+        }
+    }
+}

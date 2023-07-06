@@ -1,0 +1,419 @@
+,date,slice id,state,filename,file key
+0,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000050 f-I curve +20~+300
+1,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000051 f-I curve +20~+300
+2,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000052 f-I curve +20~+300
+3,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000054 f-I curve +20~+300
+4,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000055 f-I curve +20~+300
+5,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000056 f-I curve +20~+300
+6,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000057 f-I curve +20~+300
+7,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000058 f-I curve +20~+300
+8,2019-05-10,Slice1c1,6ohda,dataset/2019-05-10_NS/2019-05-10 Slice1c1.hdf5,000059 f-I curve +20~+300
+9,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000061 f-I curve +20~+300
+10,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000062 f-I curve +20~+300
+11,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000063 f-I curve +20~+300
+12,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000064 f-I curve +20~+300
+13,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000065 f-I curve +20~+300
+14,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000066 f-I curve +20~+300
+15,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000067 f-I curve +20~+300
+16,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000068 f-I curve +20~+300
+17,2019-03-07,Slice1c2,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c2.hdf5,000069 f-I curve +20~+300
+18,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000012 f-I curve +20~+300
+19,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000013 f-I curve +20~+300
+20,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000014 f-I curve +20~+300
+21,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000015 f-I curve +20~+300
+22,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000016 f-I curve +20~+300
+23,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000017 f-I curve +20~+300
+24,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000018 f-I curve +20~+300
+25,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000019 f-I curve +20~+300
+26,2019-03-07,Slice1c1,6ohda,dataset/2019-03-07_NS/2019-03-07 Slice1c1.hdf5,000020 f-I curve +20~+300
+27,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000001 f-I curve +20~+300
+28,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000002 f-I curve +20~+300
+29,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000003 f-I curve +20~+300
+30,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000004 f-I curve +20~+300
+31,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000005 f-I curve +20~+300
+32,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000006 f-I curve +20~+300
+33,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000007 f-I curve +20~+300
+34,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000008 f-I curve +20~+300
+35,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000009 f-I curve +20~+300
+36,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000010 f-I curve +20~+300
+37,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000011 f-I curve +20~+300
+38,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000012 f-I curve +20~+300
+39,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000013 f-I curve +20~+300
+40,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000014 f-I curve +20~+300
+41,2018-01-05,Slice1c2,6ohda,dataset/2018-01-05_NS/2018-01-05 Slice1c2fI.hdf5,000015 f-I curve +20~+300
+42,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000021 f-I curve +20~+300
+43,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000022 f-I curve +20~+300
+44,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000023 f-I curve +20~+300
+45,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000024 f-I curve +20~+300
+46,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000025 f-I curve +20~+300
+47,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000026 f-I curve +20~+300
+48,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000027 f-I curve +20~+300
+49,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000028 f-I curve +20~+300
+50,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000029 f-I curve +20~+300
+51,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000030 f-I curve +20~+300
+52,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000031 f-I curve +20~+300
+53,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000032 f-I curve +20~+300
+54,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000033 f-I curve +20~+300
+55,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000034 f-I curve +20~+300
+56,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000035 f-I curve +20~+300
+57,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000036 f-I curve +20~+300
+58,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000037 f-I curve +20~+300
+59,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000038 f-I curve +20~+300
+60,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000039 f-I curve +20~+300
+61,2018-03-30,Slice1c2,6ohda,dataset/2018-03-30_NS/2018-03-30 Slice1c2fI.hdf5,000040 f-I curve +20~+300
+62,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000001 f-I curve +20~+300
+63,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000002 f-I curve +20~+300
+64,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000003 f-I curve +20~+300
+65,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000004 f-I curve +20~+300
+66,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000005 f-I curve +20~+300
+67,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000006 f-I curve +20~+300
+68,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000007 f-I curve +20~+300
+69,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000008 f-I curve +20~+300
+70,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000009 f-I curve +20~+300
+71,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000010 f-I curve +20~+300
+72,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000011 f-I curve +20~+300
+73,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000012 f-I curve +20~+300
+74,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000013 f-I curve +20~+300
+75,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000014 f-I curve +20~+300
+76,2018-04-04,Slice1c5,6ohda,dataset/2018-04-04_NS/2018-04-04 Slice1c5fI.hdf5,000015 f-I curve +20~+300
+77,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000002 f-I curve +20~+300
+78,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000003 f-I curve +20~+300
+79,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000004 f-I curve +20~+300
+80,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000005 f-I curve +20~+300
+81,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000006 f-I curve +20~+300
+82,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000007 f-I curve +20~+300
+83,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000001 f-I curve +20~+300
+84,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000008 f-I curve +20~+300
+85,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000009 f-I curve +20~+300
+86,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000011 f-I curve +20~+300
+87,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000012 f-I curve +20~+300
+88,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000013 f-I curve +20~+300
+89,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000014 f-I curve +20~+300
+90,2018-07-18,Slice1c1,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice1c1 fI_2.hdf5,000010 f-I curve +20~+300
+91,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000013 f-I curve +20~+300
+92,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000014 f-I curve +20~+300
+93,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000015 f-I curve +20~+300
+94,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000016 f-I curve +20~+300
+95,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000017 f-I curve +20~+300
+96,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000018 f-I curve +20~+300
+97,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000019 f-I curve +20~+300
+98,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000020 f-I curve +20~+300
+99,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000021 f-I curve +20~+300
+100,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000022 f-I curve +20~+300
+101,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000023 f-I curve +20~+300
+102,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000024 f-I curve +20~+300
+103,2018-07-18,Slice2c3,6ohda,dataset/2018-07-18_NS/2018-07-18 Slice2c3fI.hdf5,000025 f-I curve +20~+300
+104,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000001 f-I curve +20~+300
+105,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000002 f-I curve +20~+300
+106,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000003 f-I curve +20~+300
+107,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000004 f-I curve +20~+300
+108,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000005 f-I curve +20~+300
+109,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000006 f-I curve +20~+300
+110,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000007 f-I curve +20~+300
+111,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000008 f-I curve +20~+300
+112,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000009 f-I curve +20~+300
+113,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000010 f-I curve +20~+300
+114,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000011 f-I curve +20~+300
+115,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000012 f-I curve +20~+300
+116,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000013 f-I curve +20~+300
+117,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000014 f-I curve +20~+300
+118,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000015 f-I curve +20~+300
+119,2018-07-25,Slice2c3,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice2c3fI.hdf5,000016 f-I curve +20~+300
+120,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000001 f-I curve +20~+300
+121,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000002 f-I curve +20~+300
+122,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000003 f-I curve +20~+300
+123,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000004 f-I curve +20~+300
+124,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000006 f-I curve +20~+300
+125,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000007 f-I curve +20~+300
+126,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000008 f-I curve +20~+300
+127,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000009 f-I curve +20~+300
+128,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000005 f-I curve +20~+300
+129,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000011 f-I curve +20~+300
+130,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000012 f-I curve +20~+300
+131,2018-07-25,Slice3c2,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice3c2fI.hdf5,000010 f-I curve +20~+300
+132,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000001 f-I curve +20~+300
+133,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000002 f-I curve +20~+300
+134,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000003 f-I curve +20~+300
+135,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000004 f-I curve +20~+300
+136,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000005 f-I curve +20~+300
+137,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000006 f-I curve +20~+300
+138,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000007 f-I curve +20~+300
+139,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000008 f-I curve +20~+300
+140,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000009 f-I curve +20~+300
+141,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000010 f-I curve +20~+300
+142,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000011 f-I curve +20~+300
+143,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000012 f-I curve +20~+300
+144,2018-07-25,Slice4c1,6ohda,dataset/2018-07-25_NS/2018-07-25 Slice4c1 fI.hdf5,000013 f-I curve +20~+300
+145,2018-08-03,Slice1c3,6ohda,dataset/2018-08-03_NS/2018-08-03 Slice1c3 fI.hdf5,000001 f-I curve +20~+300
+146,2018-08-03,Slice1c3,6ohda,dataset/2018-08-03_NS/2018-08-03 Slice1c3 fI.hdf5,000002 f-I curve +20~+300
+147,2018-08-03,Slice1c3,6ohda,dataset/2018-08-03_NS/2018-08-03 Slice1c3 fI.hdf5,000003 f-I curve +20~+300
+148,2018-08-03,Slice1c3,6ohda,dataset/2018-08-03_NS/2018-08-03 Slice1c3 fI.hdf5,000004 f-I curve +20~+300
+149,2018-08-03,Slice1c3,6ohda,dataset/2018-08-03_NS/2018-08-03 Slice1c3 fI.hdf5,000005 f-I curve +20~+300
+150,2018-08-03,Slice1c3,6ohda,dataset/2018-08-03_NS/2018-08-03 Slice1c3 fI.hdf5,000006 f-I curve +20~+300
+151,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000001 f-I curve +20~+300
+152,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000002 f-I curve +20~+300
+153,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000003 f-I curve +20~+300
+154,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000004 f-I curve +20~+300
+155,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000005 f-I curve +20~+300
+156,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000006 f-I curve +20~+300
+157,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000007 f-I curve +20~+300
+158,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000008 f-I curve +20~+300
+159,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000009 f-I curve +20~+300
+160,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000010 f-I curve +20~+300
+161,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000011 f-I curve +20~+300
+162,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000012 f-I curve +20~+300
+163,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000013 f-I curve +20~+300
+164,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000014 f-I curve +20~+300
+165,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000015 f-I curve +20~+300
+166,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000016 f-I curve +20~+300
+167,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000017 f-I curve +20~+300
+168,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000018 f-I curve +20~+300
+169,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000019 f-I curve +20~+300
+170,2018-02-21,Slice1c2,control,dataset/2018-02-21_NS/2018-02-21 Slice1c2fI_2.hdf5,000020 f-I curve +20~+300
+171,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000001 f-I curve +20~+300
+172,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000002 f-I curve +20~+300
+173,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000003 f-I curve +20~+300
+174,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000004 f-I curve +20~+300
+175,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000005 f-I curve +20~+300
+176,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000006 f-I curve +20~+300
+177,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000007 f-I curve +20~+300
+178,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000008 f-I curve +20~+300
+179,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000009 f-I curve +20~+300
+180,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000010 f-I curve +20~+300
+181,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000011 f-I curve +20~+300
+182,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000012 f-I curve +20~+300
+183,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000013 f-I curve +20~+300
+184,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000014 f-I curve +20~+300
+185,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000015 f-I curve +20~+300
+186,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000016 f-I curve +20~+300
+187,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000017 f-I curve +20~+300
+188,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000018 f-I curve +20~+300
+189,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000019 f-I curve +20~+300
+190,2018-02-21,Slice1c3,control,dataset/2018-02-21_NS/2018-02-21 Slice1c3fI.hdf5,000020 f-I curve +20~+300
+191,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000001 f-I curve +20~+300
+192,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000002 f-I curve +20~+300
+193,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000003 f-I curve +20~+300
+194,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000004 f-I curve +20~+300
+195,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000005 f-I curve +20~+300
+196,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000006 f-I curve +20~+300
+197,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000007 f-I curve +20~+300
+198,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000008 f-I curve +20~+300
+199,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000009 f-I curve +20~+300
+200,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000010 f-I curve +20~+300
+201,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000011 f-I curve +20~+300
+202,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000012 f-I curve +20~+300
+203,2018-03-21,Slice1c2,control,dataset/2018-03-21_NS/2018-03-21 Slice1c2 fI.hdf5,000013 f-I curve +20~+300
+204,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000001 f-I curve +20~+300
+205,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000002 f-I curve +20~+300
+206,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000003 f-I curve +20~+300
+207,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000004 f-I curve +20~+300
+208,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000005 f-I curve +20~+300
+209,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000006 f-I curve +20~+300
+210,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000007 f-I curve +20~+300
+211,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000008 f-I curve +20~+300
+212,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000009 f-I curve +20~+300
+213,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000010 f-I curve +20~+300
+214,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000011 f-I curve +20~+300
+215,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000012 f-I curve +20~+300
+216,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000013 f-I curve +20~+300
+217,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000014 f-I curve +20~+300
+218,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000015 f-I curve +20~+300
+219,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000016 f-I curve +20~+300
+220,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000017 f-I curve +20~+300
+221,2018-06-01,Slice1c1,control,dataset/2018-06-01_NS/2018-06-01 Slice1c1 fI.hdf5,000018 f-I curve +20~+300
+222,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000002 f-I curve +20~+300
+223,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000003 f-I curve +20~+300
+224,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000004 f-I curve +20~+300
+225,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000005 f-I curve +20~+300
+226,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000006 f-I curve +20~+300
+227,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000007 f-I curve +20~+300
+228,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000008 f-I curve +20~+300
+229,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000009 f-I curve +20~+300
+230,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000010 f-I curve +20~+300
+231,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000011 f-I curve +20~+300
+232,2018-06-06,Slice1c1,control,dataset/2018-06-06_NS/2018-06-06 Slice1c1 fI.hdf5,000012 f-I curve +20~+300
+233,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000010 f-I curve +20~+300
+234,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000011 f-I curve +20~+300
+235,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000012 f-I curve +20~+300
+236,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000013 f-I curve +20~+300
+237,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000014 f-I curve +20~+300
+238,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000015 f-I curve +20~+300
+239,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000016 f-I curve +20~+300
+240,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000017 f-I curve +20~+300
+241,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000018 f-I curve +20~+300
+242,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000019 f-I curve +20~+300
+243,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000020 f-I curve +20~+300
+244,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000021 f-I curve +20~+300
+245,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000022 f-I curve +20~+300
+246,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000023 f-I curve +20~+300
+247,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000024 f-I curve +20~+300
+248,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000025 f-I curve +20~+300
+249,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000026 f-I curve +20~+300
+250,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000027 f-I curve +20~+300
+251,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000028 f-I curve +20~+300
+252,2018-06-06,Slice2c1,control,dataset/2018-06-06_NS/2018-06-06 Slice2c1 fI.hdf5,000029 f-I curve +20~+300
+253,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000001 f-I curve +20~+300
+254,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000002 f-I curve +20~+300
+255,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000003 f-I curve +20~+300
+256,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000004 f-I curve +20~+300
+257,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000005 f-I curve +20~+300
+258,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000006 f-I curve +20~+300
+259,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000007 f-I curve +20~+300
+260,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000008 f-I curve +20~+300
+261,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000009 f-I curve +20~+300
+262,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000010 f-I curve +20~+300
+263,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000011 f-I curve +20~+300
+264,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000012 f-I curve +20~+300
+265,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000013 f-I curve +20~+300
+266,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000014 f-I curve +20~+300
+267,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000015 f-I curve +20~+300
+268,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000016 f-I curve +20~+300
+269,2018-06-22,Slice1c5,control,dataset/2018-06-22_NS/2018-06-22 Slice1c5 fI_2.hdf5,000017 f-I curve +20~+300
+270,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000001 f-I curve +20~+300
+271,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000002 f-I curve +20~+300
+272,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000003 f-I curve +20~+300
+273,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000004 f-I curve +20~+300
+274,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000005 f-I curve +20~+300
+275,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000006 f-I curve +20~+300
+276,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000007 f-I curve +20~+300
+277,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000008 f-I curve +20~+300
+278,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000009 f-I curve +20~+300
+279,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000010 f-I curve +20~+300
+280,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000011 f-I curve +20~+300
+281,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000012 f-I curve +20~+300
+282,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000013 f-I curve +20~+300
+283,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000014 f-I curve +20~+300
+284,2018-06-22,Slice2c1,control,dataset/2018-06-22_NS/2018-06-22 Slice2c1 fI.hdf5,000015 f-I curve +20~+300
+285,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000016 f-I curve +20~+300
+286,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000017 f-I curve +20~+300
+287,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000018 f-I curve +20~+300
+288,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000019 f-I curve +20~+300
+289,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000020 f-I curve +20~+300
+290,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000021 f-I curve +20~+300
+291,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000022 f-I curve +20~+300
+292,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000023 f-I curve +20~+300
+293,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000024 f-I curve +20~+300
+294,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000025 f-I curve +20~+300
+295,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000026 f-I curve +20~+300
+296,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000027 f-I curve +20~+300
+297,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000028 f-I curve +20~+300
+298,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000029 f-I curve +20~+300
+299,2018-06-22,Slice3c2,control,dataset/2018-06-22_NS/2018-06-22 Slice3c2fI.hdf5,000030 f-I curve +20~+300
+300,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000001 f-I curve +20~+300
+301,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000002 f-I curve +20~+300
+302,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000003 f-I curve +20~+300
+303,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000004 f-I curve +20~+300
+304,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000005 f-I curve +20~+300
+305,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000006 f-I curve +20~+300
+306,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000007 f-I curve +20~+300
+307,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000008 f-I curve +20~+300
+308,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000009 f-I curve +20~+300
+309,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000010 f-I curve +20~+300
+310,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000011 f-I curve +20~+300
+311,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000012 f-I curve +20~+300
+312,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000013 f-I curve +20~+300
+313,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000014 f-I curve +20~+300
+314,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000015 f-I curve +20~+300
+315,2018-07-16,Slice2c1,control,dataset/2018-07-16_NS/2018-07-16 Slice2c1 fI.hdf5,000016 f-I curve +20~+300
+316,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000032 f-I curve +20~+300
+317,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000033 f-I curve +20~+300
+318,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000034 f-I curve +20~+300
+319,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000035 f-I curve +20~+300
+320,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000036 f-I curve +20~+300
+321,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000037 f-I curve +20~+300
+322,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000038 f-I curve +20~+300
+323,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000039 f-I curve +20~+300
+324,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000040 f-I curve +20~+300
+325,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000041 f-I curve +20~+300
+326,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000042 f-I curve +20~+300
+327,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000043 f-I curve +20~+300
+328,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000044 f-I curve +20~+300
+329,2019-02-08,Slice2c1,control,dataset/2019-02-08_NS/2019-02-08 Slice2c1.hdf5,000045 f-I curve +20~+300
+330,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000003 f-I curve +20~+300
+331,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000004 f-I curve +20~+300
+332,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000005 f-I curve +20~+300
+333,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000006 f-I curve +20~+300
+334,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000007 f-I curve +20~+300
+335,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000008 f-I curve +20~+300
+336,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000009 f-I curve +20~+300
+337,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000010 f-I curve +20~+300
+338,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000011 f-I curve +20~+300
+339,2019-03-01,Slice2c1,control,dataset/2019-03-01_NS/2019-03-01 Slice2c1.hdf5,000012 f-I curve +20~+300
+340,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000028 f-I curve +20~+300
+341,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000029 f-I curve +20~+300
+342,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000030 f-I curve +20~+300
+343,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000031 f-I curve +20~+300
+344,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000032 f-I curve +20~+300
+345,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000033 f-I curve +20~+300
+346,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000034 f-I curve +20~+300
+347,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000035 f-I curve +20~+300
+348,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000036 f-I curve +20~+300
+349,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000037 f-I curve +20~+300
+350,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000038 f-I curve +20~+300
+351,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000039 f-I curve +20~+300
+352,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000040 f-I curve +20~+300
+353,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000041 f-I curve +20~+300
+354,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000042 f-I curve +20~+300
+355,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000043 f-I curve +20~+300
+356,2019-04-09,Slice2c1,control,dataset/2019-04-09_NS/2019-04-09 Slice2c1.hdf5,000044 f-I curve +20~+300
+357,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000141 f-I curve +20~+300
+358,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000142 f-I curve +20~+300
+359,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000143 f-I curve +20~+300
+360,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000144 f-I curve +20~+300
+361,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000145 f-I curve +20~+300
+362,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000146 f-I curve +20~+300
+363,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000147 f-I curve +20~+300
+364,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000148 f-I curve +20~+300
+365,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000149 f-I curve +20~+300
+366,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000150 f-I curve +20~+300
+367,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000151 f-I curve +20~+300
+368,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000152 f-I curve +20~+300
+369,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000153 f-I curve +20~+300
+370,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000154 f-I curve +20~+300
+371,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000155 f-I curve +20~+300
+372,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000156 f-I curve +20~+300
+373,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000157 f-I curve +20~+300
+374,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000158 f-I curve +20~+300
+375,2019-04-15,Slice1c1,control,dataset/2019-04-15_NS/2019-04-15 Slice1c1.hdf5,000159 f-I curve +20~+300
+376,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000001 f-I curve +20~+300
+377,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000002 f-I curve +20~+300
+378,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000003 f-I curve +20~+300
+379,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000004 f-I curve +20~+300
+380,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000005 f-I curve +20~+300
+381,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000006 f-I curve +20~+300
+382,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000007 f-I curve +20~+300
+383,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000008 f-I curve +20~+300
+384,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000009 f-I curve +20~+300
+385,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000010 f-I curve +20~+300
+386,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000011 f-I curve +20~+300
+387,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000012 f-I curve +20~+300
+388,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000013 f-I curve +20~+300
+389,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000014 f-I curve +20~+300
+390,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000015 f-I curve +20~+300
+391,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000016 f-I curve +20~+300
+392,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000017 f-I curve +20~+300
+393,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000018 f-I curve +20~+300
+394,2019-04-15,Slice2c1,control,dataset/2019-04-15_NS/2019-04-15 Slice2c1.hdf5,000058 f-I curve +20~+300
+395,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000030 f-I curve +20~+300
+396,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000031 f-I curve +20~+300
+397,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000032 f-I curve +20~+300
+398,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000033 f-I curve +20~+300
+399,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000034 f-I curve +20~+300
+400,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000035 f-I curve +20~+300
+401,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000036 f-I curve +20~+300
+402,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000037 f-I curve +20~+300
+403,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000038 f-I curve +20~+300
+404,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000039 f-I curve +20~+300
+405,2019-05-09,Slice1c1,control,dataset/2019-05-09_NS/2019-05-09 Slice1c1.hdf5,000040 f-I curve +20~+300
+406,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000053 f-I curve +20~+300
+407,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000054 f-I curve +20~+300
+408,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000055 f-I curve +20~+300
+409,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000056 f-I curve +20~+300
+410,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000057 f-I curve +20~+300
+411,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000058 f-I curve +20~+300
+412,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000059 f-I curve +20~+300
+413,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000060 f-I curve +20~+300
+414,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000061 f-I curve +20~+300
+415,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000062 f-I curve +20~+300
+416,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000063 f-I curve +20~+300
+417,2019-05-09,Slice2c2,control,dataset/2019-05-09_NS/2019-05-09 Slice2c2.hdf5,000064 f-I curve +20~+300

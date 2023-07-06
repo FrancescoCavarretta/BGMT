@@ -1,0 +1,261 @@
+{
+    "Step20_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.02, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step40_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.04, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step60_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.06, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step80_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.08, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step100_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.10, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step120_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.12, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step140_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.14, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step160_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.16, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step180_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.18, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step200_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.2, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step220_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.22, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step240_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.24, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step260_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.26, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step280_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.28, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "Step300_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": 0.3, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-50_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.05, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-100_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.1, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-150_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.15, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-200_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.2, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-250_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.25, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-300_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.3, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-50_500ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.05, "duration": 500.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-100_500ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.1, "duration": 500.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-150_500ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.15, "duration": 500.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-200_500ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.2, "duration": 500.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-250_500ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.25, "duration": 500.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-300_500ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.3, "duration": 500.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-50_200ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.05, "duration": 200.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-100_200ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.1, "duration": 200.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-150_200ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.15, "duration": 200.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-200_200ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.2, "duration": 200.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-250_200ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.25, "duration": 200.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "ReboundStep-300_200ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.3, "duration": 200.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.033, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "SagStep-50_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.05, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.0, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "SagStep-100_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.1, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.0, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "SagStep-150_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.15, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.0, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    },
+    "SagStep-200_2000ms": {
+        "type": "StepProtocol",
+        "stimuli": {
+            "step": { "delay": 2000, "amp": -0.2, "duration": 2000.0, "totduration": 5000.0 },
+            "holding": { "amp": 0.0, "delay": 0, "duration": 5000.0, "totduration": 5000.0 }
+        }
+    }
+}

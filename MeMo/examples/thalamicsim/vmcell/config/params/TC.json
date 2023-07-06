@@ -1,0 +1,77 @@
+{
+    "mechanisms": {
+        "all":
+            {"mech":[ "pas", "TC_cad", "TC_iL", "SK_E2", "TC_HH", "TC_iA", "TC_iT_Des98", "TC_ih_Bud97", "iM", "TC_iD", "BK" ]},
+        "somatic":
+            {"mech":[]},
+        "alldend":
+            {"mech":[]},
+	"axonal":
+            {"mech":[]},
+	"somadend":{"mech":[]}
+
+    },
+    "distributions": {
+      "FromAxonNav12": { },
+      "FromAxonNav16": { },
+      "FromAxonCaT":   { },
+      "FromAxonCaL":   { },
+      "FromAxonH":     { "proximal":0, "distal":0,  "somatic":1, "dend1":1, "deepdend":1 },
+      "FromAxonProx":  { "proximal":1, "distal":0,  "somatic":0, "dend1":0, "deepdend":0 },
+      "FromAxonDist":  { "proximal":0, "distal":1,  "somatic":0, "dend1":0, "deepdend":0 }
+    },
+    "parameters": {
+        "__comment": "define constants as single values and params to optimize as tuples of bounds: [lower, upper]",
+        "global":   [
+            {"name":"v_init",      "val":-75},
+            {"name":"celsius",     "val":27},
+            {"name":"shift_TC_iD", "val":[0.0, 40]},
+            {"name":"shift_BK", "val":[-100, 0]},
+            {"name":"tau_factor_BK", "val":[1, 15]},
+            {"name":"m_timeCourse_TIME_SCALE_iM", "val":[1.0, 10]},
+            {"name":"m_factor_TC_HH", "val":[0.01, 1.0]},
+            {"name":"h_factor_TC_HH", "val":[0.01, 1.0]},
+            {"name":"n_factor_TC_HH", "val":[0.01, 1.0]}
+        ],
+        "all": [
+            {"name":"cm",                    "val":1},
+            {"name":"Ra",                    "val":[50, 200]},
+            {"name":"ena",                   "val":69},
+            {"name":"ek",                    "val":-105},
+	    {"name":"e_pas",                 "val":[-85,-60]},
+            {"name":"gh_max_TC_ih_Bud97",    "val":[0, 0.00015], "dist":"FromAxonH"},
+            {"name":"g_pas",                 "val":[1e-07, 1e-04]},
+            {"name":"gnap_max_TC_HH",        "val":[0, 0.00085],    "dist":"FromAxonNav16"},
+            {"name":"gna_max_TC_HH",         "val":[0, 0.02],       "dist":"FromAxonNav12"},
+            {"name":"gk_max_TC_HH",          "val":[0, 0.03]},
+	    {"name":"gk_max_TC_iA",          "val":[0, 0.00175]},
+            {"name":"pcabar_TC_iT_Des98",    "val":[0, 0.00015],     "dist":"FromAxonCaT"  },
+	    {"name":"pcabar1_TC_iL",         "val":[0, 0.00075],     "dist":"FromAxonCaL"  },
+	    {"name":"pcabar2_TC_iL",         "val":[0, 0.00125],     "dist":"FromAxonCaL"  },
+	    {"name":"gSK_E2bar_SK_E2",       "val":[0, 0.00275],     "dist":"FromAxonCaL"  },
+            {"name":"gmax_iM",               "val":[0, 0.0012]},
+            {"name":"gmin_iM",               "val":[0, 0.00006]},
+            {"name":"gk_max_TC_iD",          "val":[0, 0.0003]},
+	    {"name":"gbar_BK",               "val":[0, 0.02],       "dist":"FromAxonCaL"  },
+	    {"name":"taur_L1_TC_cad",        "val":[1.0, 75.0]},
+	    {"name":"taur_L2_TC_cad",        "val":[1.0, 3000.0]},
+	    {"name":"taur_T_TC_cad",         "val":[1.0, 100.0]},
+	    {"name":"delta_L1_TC_cad",       "val":[0.1, 10]},
+	    {"name":"delta_L2_TC_cad",       "val":[0.1, 20]},
+	    {"name":"delta_T_TC_cad",	     "val":[0.1, 30]},
+            {"name":"gna_max_extra_TC_HH",         "val":[0, 0.8],      "dist":"FromAxonProx" },
+            {"name":"gk_max_extra_TC_HH",          "val":[0, 0.15],     "dist":"FromAxonProx" },
+            {"name":"gnap_max_extra_TC_HH",        "val":[0, 0.017],    "dist":"FromAxonDist" },
+            {"name":"gmax_extra_iM",               "val":[0, 0.03],     "dist":"FromAxonDist" }
+        ],
+
+        "allact": [
+        ],
+        
+	"somadend": [
+	]
+
+
+    }
+}
+

@@ -1,0 +1,226 @@
+{
+    "control_136": {
+        "morph_path": "morphologies/",  			 
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols.json",
+        "features": "config/features/control_features.json"
+    },
+    "lesioned_136": {
+        "morph_path": "morphologies/",  			 
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols.json",
+        "features": "config/features/6ohda_features.json"
+    },
+    "control_719": {
+        "morph_path": "morphologies/",  			 
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols.json",
+        "features": "config/features/control_features.json"
+    },
+    "lesioned_719": {
+        "morph_path": "morphologies/",  			 
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols.json",
+        "features": "config/features/6ohda_features.json"
+    },
+    "control_136_quality_check_100": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_100.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_136_quality_check_100": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_100.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_136_quality_check_90": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_90.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_136_quality_check_90": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_90.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_136_quality_check_80": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_80.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_136_quality_check_80": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_80.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_136_quality_check_70": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_70.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_136_quality_check_70": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_70.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_136_quality_check_60": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_60.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_136_quality_check_60": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_60.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_136_quality_check_50": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_50.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_136_quality_check_50": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_50.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_136_quality_check_40": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_40.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_136_quality_check_40": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0136.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_40.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_719_quality_check_100": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_100.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_719_quality_check_100": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_100.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_719_quality_check_90": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_90.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_719_quality_check_90": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_90.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_719_quality_check_80": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_80.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_719_quality_check_80": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_80.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_719_quality_check_70": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_70.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_719_quality_check_70": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_70.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_719_quality_check_60": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_60.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_719_quality_check_60": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_60.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_719_quality_check_50": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_50.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_719_quality_check_50": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_50.json",
+        "features": "config/features/features_qc.json"
+    },
+    "control_719_quality_check_40": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/control_protocols_qc_40.json",
+        "features": "config/features/features_qc.json"
+    },
+    "lesioned_719_quality_check_40": {
+        "morph_path": "morphologies/",
+        "morphology": "AA0719.swc",
+        "params": "config/params/TC.json",
+        "protocol": "config/protocols/6ohda_protocols_qc_40.json",
+        "features": "config/features/features_qc.json"
+    }
+}

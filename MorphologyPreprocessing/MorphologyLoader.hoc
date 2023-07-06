@@ -1,0 +1,32 @@
+
+load_file("stdrun.hoc")
+load_file("import3d.hoc")
+
+begintemplate MorphologyLoader
+  	public init
+  	public soma, dend, apic, axon, myelin
+  	
+  	create soma[1], dend[1], apic[1], axon[1], myelin[1]
+        objref this
+        objref all, somatic, apical, axonal, basal, myelinated
+        
+	proc init() { localobj morph, import
+                all = new SectionList()
+                apical = new SectionList()
+                axonal = new SectionList()
+                basal = new SectionList()
+                somatic = new SectionList()
+                myelinated = new SectionList()
+                      
+  		morph = new Import3d_SWC_read()
+  		morph.quiet = 1
+  		morph.input($s1)
+                      print $s1
+  		import = new Import3d_GUI(morph, 0)
+  		import.instantiate(this)
+		soma distance()
+		forsec "dend" nseg = int(L/10)+2
+	}
+
+
+endtemplate MorphologyLoader
