@@ -1,7 +1,8 @@
 <b>Modeling synaptic integration of bursty and beta oscillatory inputs in ventromedial motor thalamic neurons in normal and parkinsonian states</b>
 
     Francesco Cavarretta, Dieter Jaeger
-    eNeuro 21 November 2023, ENEURO.0237-23.2023; DOI: 10.1523/ENEURO.0237-23.2023
+    eNeuro 21 November 2023, ENEURO.0237-23.2023
+    <a href="https://doi.org/10.1523/ENEURO.0237-23.2023">DOI: 10.1523/ENEURO.0237-23.2023</a>
 
 Author names and affiliations, including postal codes:
 
