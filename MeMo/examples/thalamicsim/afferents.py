@@ -132,7 +132,6 @@ class InputToThalamus(model.Model):
       self.__linkattr__("n_" + inputname, "n", submodel=getattr(self, inputname))
       self.__linkattr__("gsyn_" + inputname, "gsyn", submodel=getattr(self, inputname))
       self.__linkattr__("erev_" + inputname, "erev", submodel=getattr(self, inputname))
-
     self.n_total = 0
     
     self.__linkattr__("n_snr", "n_total", function="n_total=n_driver+n_modulator+n_snr+n_reticular")
@@ -147,8 +146,9 @@ class InputToThalamus(model.Model):
         self.__linkattr__("n_snr", "n", function="n=int(round(n_snr * percent_sync_snr))", submodel=getattr(self, inputname))
         self.__linkattr__("percent_sync_snr", "n", function="n=int(round(n_snr * percent_sync_snr))", submodel=getattr(self, inputname))
       elif inputname == 'snrASync':
-        self.__linkattr__("n_snr", "n", function="n=int(round(n_snr * (1-percent_sync_snr)))", submodel=getattr(self, inputname))
-        self.__linkattr__("percenta_sync_snr", "n", function="n=int(round(n_snr * (1-percent_sync_snr)))", submodel=getattr(self, inputname))      
+        self.__linkattr__("n_snr", "n", function="n=n_snr - int(round(n_snr * percent_sync_snr))", submodel=getattr(self, inputname))
+        self.__linkattr__("percenta_sync_snr", "n", function="n=n_snr - int(round(n_snr * percent_sync_snr))", submodel=getattr(self, inputname))      
 
 
 
+    print('(1) erev', self.snrSync.erev, self.erev_snrSync, 'mV') 

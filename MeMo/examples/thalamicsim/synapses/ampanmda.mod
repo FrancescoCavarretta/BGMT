@@ -114,7 +114,6 @@ STATE {
        Ron
        Roff
        gampa
-       g
 }
 
 INITIAL {
@@ -125,7 +124,6 @@ INITIAL {
 	gampa = 0
         gnmda = 0
         R_Max = exp(-3 * Cdur / Rtau) * Rinf
-        g = 0
 }
 
 BREAKPOINT {
@@ -134,7 +132,6 @@ BREAKPOINT {
 	inmda = gnmda * (v - e)
 	iampa = gampa * (v - e)
 	i = iampa + inmda
-        g = gnmda + gampa
 }
 
 DERIVATIVE release {

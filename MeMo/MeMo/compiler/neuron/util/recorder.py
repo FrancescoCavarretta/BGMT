@@ -61,7 +61,7 @@ class Recorder:
     import numpy as np
     tp, yp = self._get(dt=dt)
     if self.density_variable:
-        yp.mul(self.seg.area())
+        yp.mul(self.seg.area() * 1e-8)
     return np.array([ tp.as_numpy(), yp.as_numpy() ]).T
     
 

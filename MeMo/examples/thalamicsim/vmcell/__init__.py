@@ -124,7 +124,7 @@ class Cell:
     
     section_collection = {}
     h.distance(sec=bpo_cell.icell.soma[0])
-    tab = pd.DataFrame()
+    tab = [] #pd.DataFrame()
     for section_type in bpo_cell.seclist_names:
       section_collection[section_type] = {}
       if section_type != "all":
@@ -133,7 +133,7 @@ class Cell:
           section_collection[section_type][section_number] = section
           for segment in section.allseg():
             try:
-              tab = tab.append({ "type":section_type,
+              tab.append(pd.Series({ "type":section_type,
                                  "segment":segment.x,
                                  "name":section,
                                  "number":section_number,
@@ -142,11 +142,10 @@ class Cell:
                                  "pathdist":h.distance(segment.x, sec=section),
                                  "dist":dist_from_soma(section, segment.x),
                                  "order":Cell.branch_order(section, bpo_cell.icell.soma[0]),
-                                 "area":segment.area()},
-                               ignore_index=True)
+                                 "area":segment.area()}).to_frame().T)
             except IndexError:
               pass
-
+    tab = pd.concat(tab)
     tab = tab[tab.area > 0]
     tab["segment"] = tab["segment"].astype(float)
     tab["dist"] = tab["dist"].astype(float)

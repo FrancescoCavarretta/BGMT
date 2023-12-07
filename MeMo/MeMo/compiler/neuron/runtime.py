@@ -84,7 +84,7 @@ def setup(**kwargs):
                     setattr(s, k, v)
 
 
-def run(tstop, tcheckpoint=100.0, vinit=-78.0, recordings=None, **kwargs):
+def run(tstop, tcheckpoint=1000.0, vinit=-78.0, recordings=None, **kwargs):
     """
     Run a simulation
     """

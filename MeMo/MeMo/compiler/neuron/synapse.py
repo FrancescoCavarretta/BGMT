@@ -42,7 +42,10 @@ class Synapse:
     
     @erev.setter
     def erev(self, value):
+#        print(self.name, 'Erev', getattr(self, self.name).e, 'mV')
         getattr(self, self.name).e = value
+#        print(self.name, 'Erev', getattr(self, self.name).e, 'mV')
+#        print()
         
     @property
     def gsyn(self):

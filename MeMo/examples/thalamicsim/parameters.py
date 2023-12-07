@@ -18,7 +18,7 @@ class Parameters:
         np.save(self.filename, self.params, allow_pickle=True)
 
         
-    def add(self, tstop=20000, ntrial=10, seed_start=0, **kwargs):
+    def add(self, tstop=21000, ntrial=10, seed_start=0, **kwargs):
         
         for lesioned_flag in self.lesioned_flags:
             

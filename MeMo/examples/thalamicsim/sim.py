@@ -28,8 +28,7 @@ from afferents import SynapticInputs, InputToThalamus
 # read default values of synaptic conductance and their numbers
 try:
   _gsyn = np.load('gsyn.npy', allow_pickle=True).tolist()
-  gsyn = { 'SNR':_gsyn['SNR'], 'RTN':_gsyn['RTN'], 'MOD':_gsyn['CX'], 'DRV':_gsyn['CN_VM']}
-  #gsyn = { 'SNR':_gsyn['SNR'], 'RTN':_gsyn['RTN'], 'MOD':_gsyn['CX'], 'DRV':_gsyn['CN_VM'] }
+  gsyn = { 'SNR':_gsyn['SNR'], 'RTN':_gsyn['RTN'], 'MOD':_gsyn['CX'], 'DRV':_gsyn['CN_VM']}  
   del _gsyn
 except:
   gsyn = { 'SNR':0., 'RTN':0., 'MOD':0., 'DRV':0. }
@@ -41,7 +40,9 @@ print('gsyn', gsyn)
 #  nsyn = { 'SNR':_nsyn['SNR'], 'RTN':nsyn['RTN'], 'MOD':_nsyn['CX'], 'DRV':395 } #_nsyn['CN_VM'] }
 #  del _nsyn
 #except:
-nsyn = { 'SNR':100, 'RTN':400, 'MOD':1450, 'DRV':350 }
+#syn = { 'SNR':25, 'RTN':400, 'MOD':1450, 'DRV':350 }
+nsyn = { 'SNR':25, 'RTN':400, 'MOD':1450, 'DRV':350 }
+#nsyn = { 'SNR':25, 'RTN':400, 'MOD':1450, 'DRV':125 }
 #  print('Warning: default number of synapses not found')
 print('nsyn', nsyn)
 
@@ -117,8 +118,10 @@ def mk_vm_model(cellid, lesioned_flag, snrST_sync, snrST_async, rtnST, drvST, mo
   cell =  nrn.Cell("TC", cellid=cellid, lesioned_flag=lesioned_flag)
 
   # model of synapses
-  snrSyn = nrn.Synapse("GABAA", erev=-76.4, tau=14.0)
-  rtnSyn = nrn.Synapse("GABAA", erev=-76.4, tau=14.0)
+#  snrSyn = nrn.Synapse("GABAA", erev=-76.4, tau=14.0)
+#  rtnSyn = nrn.Synapse("GABAA", erev=-76.4, tau=14.0)
+  snrSyn = nrn.Synapse("GABAA", erev=-81, tau=14.0)
+  rtnSyn = nrn.Synapse("GABAA", erev=-81, tau=14.0)
   drvSyn = nrn.Synapse("AmpaNmda", erev=0.0, ratio=drv_param['NmdaAmpaRatio'])
   modSyn = nrn.Synapse("AmpaNmda", erev=0.0, ratio=mod_param['NmdaAmpaRatio'])
   
@@ -165,18 +168,21 @@ def _iterate_input_property(retsim, name, conn, entity_type="models", **kwargs):
 
   
 def _save_spike_train(filename, retsim, conn):
-  tab = pd.DataFrame()
+  tab = {'neuron class':list(), 'cellid':list(), 'spike time':list()}
   for inputname, i, tspk in _iterate_input_property(retsim, 'spktr', conn):
+
     # create entry
-    tmp = pd.DataFrame(tspk.product, columns=['spike time'])
-    tmp['input name'] = inputname
-    tmp['input index'] = i
-    
-    tab = pd.concat([tab, tmp])
-  tab.loc[tab['input name'] == 'snr async', 'input index'] += tab.loc[tab['input name'] == 'snr sync', 'input index'].nunique()
-  tab['input name'] = tab['input name'].replace(['snr sync', 'snr async'], 'snr')
+    tab['neuron class'].append(inputname)
+    tab['cellid'].append(i)
+    tab['spike time'].append(tspk.product)
+
+  # format the table
+#  tab = pd.concat(tab)
+#  tab.loc[tab['neuron class'] == 'snr async', 'cellid'] += tab.loc[tab['neuron class'] == 'snr sync', 'cellid'].nunique()
+#  tab['cellid'] = tab['cellid'].replace(['snr sync', 'snr async'], 'snr')
+
   # output
-  tab.to_csv(filename)
+  np.save(filename, tab, allow_pickle=True)
 
 
 def _save_syn_distribution(filename, retsim, conn):
@@ -213,15 +219,16 @@ def _mk_mem_recorders(section, varnames, fmt='%s[%d](%f).%s', dt=0.05):
       # iterate the segments
 #      for seg in section[sectype][i]:
         segments = [ seg for seg in section[sectype][i] ]
-        seg = segments[int(len(segments) / 2)]
-        # create recording for each variable
-        for varname in varnames:
-          # test whether it is a density variable
-          if hasattr(seg, varname):
-            recordings[varname].append(recorder.Recorder(getattr(seg, varname), seg=seg, dt=dt)) #, density_variable=varname.startswith('_ref_i_output'))
+        #seg = segments[int(len(segments) / 2)]
+        for seg in segments:
+          # create recording for each variable
+          for varname in varnames:
+            # test whether it is a density variable
+            if hasattr(seg, varname):
+              recordings[varname].append(recorder.Recorder(getattr(seg, varname), seg=seg, dt=dt, density_variable=True)) #varname.startswith('_ref_i_output'))
 
   for varname in recordings:
-    recordings[varname] = recorder.GroupRecorder(recordings[varname], mean_flag=True)
+    recordings[varname] = recorder.GroupRecorder(recordings[varname], mean_flag=False)
 
 
   return recordings
@@ -236,7 +243,8 @@ def _mk_syn_recorders(retsim, conn, fmt='syn.%s[%d](%f).%s', dt=0.05):
 
     s, x = p.product['Segment']['Section'], p.product['Segment']['Arc']
     syn = p.input.product
-    recordings[inputname].append(recorder.Recorder(getattr(syn, '_ref_g'), seg=s(x)))
+    recordings[inputname].append(recorder.Recorder(getattr(syn, '_ref_i'), seg=s(x)))
+    #recordings[inputname].append(recorder.Recorder(getattr(syn, '_ref_g'), seg=s(x)))
 
   for inputname in recordings:
     recordings[inputname] = recorder.GroupRecorder(recordings[inputname])
@@ -304,7 +312,8 @@ def nrn_run(retsim, circ, conn, tstop, seed, varnames, all_section_recording=Fal
     # sum recordings
     for krec in recordings_.keys():
       if type(recordings_[krec]) == list:
-        recordings_[krec] = _sum_recordings(recordings_[krec], dt=dt, mean_flag=True)
+#        recordings_[krec] = _sum_recordings(recordings_[krec], dt=dt, mean_flag=True)
+        recordings_[krec] = _sum_recordings(recordings_[krec], dt=dt, mean_flag=False)
     
     return recordings_
 
@@ -381,19 +390,32 @@ def run_and_save(key, cellid, seed, lesioned_flag, tstop, varnames, tcut_init=No
     sim_info = kwargs.copy().update({'key':key, 'cellid':cellid, 'seed':seed, 'lesioned':lesioned_flag, 'tstop':tstop })
 
     # store to nwb file
-    fw = nwbio.FileWriter(key + ".nwb", str(sim_info), "thalamic_data_id", max_size=None)
-    for key_res, data_res in output.items():
-      if tcut_init and tcut_end:
-        data_res = data_res[np.logical_and(data_res[:, 0] >= tcut_init, data_res[:, 0] <= tcut_end), :]
-      elif tcut_init:
-        data_res = data_res[data_res[:, 0] >= tcut_init, :]
-      elif tcut_end:
-        data_res = data_res[data_res[:, 0] <= tcut_end, :]
-      try:
-        fw.add(key + '.' + key_res, data_res[:, 0], data_res[:, 1])
-      except IndexError:
-        print('data_res', data_res)
-    fw.close()
+
+    if True:
+      fw = nwbio.FileWriter(key + ".nwb", str(sim_info), "thalamic_data_id", max_size=None)
+      for key_res, data_res in output.items():
+        if tcut_init and tcut_end:
+          data_res = data_res[np.logical_and(data_res[:, 0] >= tcut_init, data_res[:, 0] <= tcut_end), :]
+        elif tcut_init:
+          data_res = data_res[data_res[:, 0] >= tcut_init, :]
+        elif tcut_end:
+          data_res = data_res[data_res[:, 0] <= tcut_end, :]
+        try:
+          fw.add(key + '.' + key_res, data_res[:, 0], data_res[:, 1])
+        except IndexError:
+          print('data_res', data_res)
+      fw.close()
+    else:
+      output = {}
+      for key_res, data_res in output.items():
+        if tcut_init and tcut_end:
+          data_res = data_res[np.logical_and(data_res[:, 0] >= tcut_init, data_res[:, 0] <= tcut_end), :]
+        elif tcut_init:
+          data_res = data_res[data_res[:, 0] >= tcut_init, :]
+        elif tcut_end:
+          data_res = data_res[data_res[:, 0] <= tcut_end, :]
+        output[key + '.' + key_res] = (data_res[:, 0], data_res[:, 1])
+      np.save(key + ".npy", output, allow_pickle=True)
 
 
 if __name__ == '__main__':  
@@ -451,8 +473,8 @@ if __name__ == '__main__':
   
   # ion channels
   if 'all_current_recording' in param:
-#    current_recording_suffix = ["BK", "iM", "TC_iT_Des98", "TC_iL", "TC_ih_Bud97", "TC_iD", "TC_iA", "SK_E2", "nat_TC_HH", "nap_TC_HH", "k_TC_HH"]
-    current_recording_suffix = ["BK", "iM", "TC_iT_Des98", "TC_ih_Bud97", "TC_iA"]
+    current_recording_suffix = ["BK", "iM", "TC_iT_Des98", "TC_iL", "TC_ih_Bud97", "TC_iD", "TC_iA", "SK_E2", "nat_TC_HH", "nap_TC_HH", "k_TC_HH"]
+#    current_recording_suffix = ["BK", "iM", "TC_iT_Des98", "TC_ih_Bud97", "TC_iA"]
 
   elif 'current_recording' in param:
     current_recording_suffix = [param['current_recording']]

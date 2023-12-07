@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
         params = []
         for cellid in range(nmodel):
-            for iseed in range(ntrial):
+            for iseed in range(ntrial): 
                 params.append((cellid, input_name, gsyn, nsyn, (iseed, iseed), vclamp, tstim, tstop, kwargs))
         
         with Pool(multiprocessing.cpu_count()) as p:    
@@ -114,12 +114,12 @@ if __name__ == '__main__':
             else:
                 print (np.mean(peak), '+/-', np.std(peak), ' pA   ', peak_target, ' pA')
                 break
-        print (np.mean(peak), '+/-', np.std(peak), ' pA   ', peak_target, ' pA')
+        print (input_name, np.mean(peak), '+/-', np.std(peak), ' pA   ', peak_target, ' pA')
 
         return g
 
 
-    g_mean_snr = search_gsyn("snr",  2.7 * 4.1 / 1000.0, -64.0, ena=60.4, ek=-105.8, celsius=32) 
+    g_mean_snr = search_gsyn("snr", 8.5 / 2 *  2.7 * 4.1 / 1000.0, -64.0, ena=60.4, ek=-105.8, celsius=32) 
     print ("snr", g_mean_snr)
 
     g_mean_rtn =  search_gsyn("reticular",  24.43 / 1000.0,     -9.3,  gmax=0.0015, ena=145.2, ek=-272.0, celsius=24, ion_channel_blocker=['TTX', 'Cs'])
@@ -128,14 +128,11 @@ if __name__ == '__main__':
     g_mean_cx = search_gsyn("modulator",  28.4 / 1000.0,       -79.3, ena=145.2, ek=-272.0, celsius=24, ion_channel_blocker=['TTX', 'Cs'])
     print ("cx", g_mean_cx)
 
-    #g_mean_cx = search_gsyn("modulator",  165.0 / 3.66 / 3.06 / 1000.0,   -68.4, ena=64.8, n=1, ek=-107.1, celsius=34, ion_channel_blocker=['TTX'])
-    #print ("cx", g_mean_cx)
-
-    g_mean_cn_vm = search_gsyn("driver",  165.0 / 1000.0,   -68.4, ena=64.8, n=4, ek=-106.9, celsius=34, ion_channel_blocker=['TTX'])
+    g_mean_cn_vm = search_gsyn("driver",  0.75 * 165.0 / 1000.0,   -68.4, ena=64.8, n=4, ek=-106.9, celsius=34, ion_channel_blocker=['TTX'])
     print ("vm", g_mean_cn_vm)
 
-#    g_mean_cn_vl = search_gsyn("driver",  847.7 / 1000.0,   -68.4, ena=64.8, n=4, ek=-107.1, celsius=34, ion_channel_blocker=['TTX'])
-#    print ("vl", g_mean_cn_vl)
+    g_mean_cn_vl = search_gsyn("driver",  847.7 / 1000.0,   -68.4, ena=64.8, n=4, ek=-107.1, celsius=34, ion_channel_blocker=['TTX'])
+    print ("vl", g_mean_cn_vl)
 
 
     g = {"SNR":g_mean_snr,
@@ -145,13 +142,21 @@ if __name__ == '__main__':
 
     np.save(conductance_file, g, allow_pickle=True)
 
-    for k in g:
-	    print (k, np.mean(g[k]))
+##    for k in g:
+##	    print (k, np.mean(g[k]))
+##
+##    g  = np.load(conductance_file, allow_pickle=True).tolist()
+###    g_mean_cx = g['CX']
+##    g_mean_cn_vm = g['CN_VM']
+###    g_mean_rtn = g['RTN']
+###    g_mean_snr = g['SNR']
+###    peaksnr =  test("snr",  g_mean_snr, -64.0, 1, tstop=5500, ena=60.4, ek=-105.8, celsius=32)
+###    peakrtn =  test("reticular",  g_mean_rtn, -9.3, 1, tstop=5500, ena=145.2, ek=-272.0, celsius=24, ion_channel_blocker=['TTX', 'Cs'])
+###    peakmod = test("modulator", g_mean_cx, -79.3, 1, tstop=5500, ena=145.2, ek=-209.5, celsius=24, ion_channel_blocker=['TTX', 'Cs', 'AP5'])
+##    peakdrv = test("driver", g_mean_cn_vm, -68.4, 4, tstop=5500, ena=64.8, ek=-107.1, celsius=34, ion_channel_blocker=['TTX'])
+###    print('snr',np.mean(peaksnr), np.std(peaksnr))
+###    print('rtn',np.mean(peakrtn), np.std(peakrtn))
+###    print('mod',np.mean(peakmod), np.std(peakmod))
+##    print('drv',np.mean(peakdrv), np.std(peakdrv))
 
-    g  = np.load('gsyn.npy', allow_pickle=True).tolist()
-    g_mean_cx = g['CX']
-    g_mean_cn_vm = g['CN_VM']
-    peak = test("modulator", g_mean_cx, -79.3, 1, tstop=5500, ena=145.2, ek=-209.5, celsius=24, ion_channel_blocker=['TTX', 'Cs', 'AP5'])
-    print(np.mean(peak), np.std(peak))
-    peak = test("driver", g_mean_cn_vm, -68.4, 4, tstop=5500, ena=64.8, ek=-107.1, celsius=34, ion_channel_blocker=['TTX'])
-    print(np.mean(peak), np.std(peak))
+
