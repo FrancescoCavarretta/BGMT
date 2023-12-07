@@ -2,7 +2,7 @@
 
     Francesco Cavarretta, Dieter Jaeger
     eNeuro 21 November 2023, ENEURO.0237-23.2023
-    <a href="https://doi.org/10.1523/ENEURO.0237-23.2023">DOI: 10.1523/ENEURO.0237-23.2023</a>
+    DOI: 10.1523/ENEURO.0237-23.2023
 
 Author names and affiliations, including postal codes:
 
